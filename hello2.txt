@@ -1,1 +1,49 @@
- this is chamges!!!!!!!Bitchin! 
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+antago@REs-MacBook-Pro demo-repo-24c % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 312 bytes | 312.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:antagore/demo-repo-24c.git
+   e71f0f0..cdd0dbf  main -> main
+antago@REs-MacBook-Pro demo-repo-24c % clear
+
+antago@REs-MacBook-Pro demo-repo-24c % vim hello2.txt         
+antago@REs-MacBook-Pro demo-repo-24c % history
+  873  git status
+  874  pwd
+  875  cd
+  876  pwd
+  877  ls
+  878  cd 24c
+  879  ls
+  880  cd demo-repo-24c
+  881  vim hello2.txt
+  882  git status
+  883  git add .
+  884  git commit .
+  885  git commit -m "changes"
+  886  git push
+  887  clear
+  888  vim hello2.txt
+antago@REs-MacBook-Pro demo-repo-24c % 
+
+
+
+
+
+
